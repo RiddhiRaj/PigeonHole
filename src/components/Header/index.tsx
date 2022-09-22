@@ -7,10 +7,9 @@ import styles from "./styles.module.scss";
 const Header = () => (
     <header className={styles["header"]}>
         <div className={styles["header__title"]}>
-            Demo showing the possibility of storing files in a distributed file system and their hashes with some basic
-            info in blockchain.
+            Project made to show that files can be stored in a distributed file system and their hashes in the blockchain with some basic metadata.
         </div>
-        <div className={styles["header__subtitle"]}>Following technologies have been used:</div>
+        <div className={styles["header__subtitle"]}>Following technologies have been used: Solidity, IPFS, Truffle, React(UI)</div>
         <div className={styles["header__images"]}>
             <img src={EthereumLogo} alt="Ethereum logo" />
             <img src={IPFSLogo} alt="IPFS logo" />
